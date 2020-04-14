@@ -31,12 +31,12 @@ import { mapGetters } from 'vuex';
 
 export default {
     data() {
-      return {
-        form: {
-            code: '',
-            symbol: ''
+        return {
+            form: {
+                code: '',
+                symbol: ''
+            }
         }
-      }
     },
     mounted() {
         this.updateForm(this.$route.params.id);
